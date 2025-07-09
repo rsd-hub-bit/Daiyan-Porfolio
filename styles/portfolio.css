@@ -12,7 +12,7 @@
 .header{
     background-image: url('../Images/developer.png'), url('../Images/header_bg.png');
     background-repeat: no-repeat;
-    background-position: top left,bottom right;
+    background-position: center left,bottom right;
 }
 
 
@@ -107,8 +107,8 @@ nav ul li a{
     min-width: 50%;
 }
 .banner-image{
-    width: 1000px;
-    height: 100x;
+    width: 725px;
+    height: 725px;
     transform: translateX(100px);
 }
 
