@@ -12,10 +12,10 @@
 .header{
     background-image: url('../Images/developer.png'), url('../Images/header_bg.png');
     background-repeat: no-repeat;
-    background-position: center left,bottom right;
+    background-position-x: 50px, 100%;
+    background-position-y: 50px, 100%;
+    /* background-position: center left,bottom right; */
 }
-
-
 
 /* nav styles */
 
@@ -31,7 +31,7 @@ nav{
 }
 nav ul{
     display: flex;
-    align-items: center;
+    align-items: first baseline;
 }
 nav ul li{
     list-style: none;
@@ -61,6 +61,7 @@ nav ul li a{
     border-radius: 5px;
     border: none;
     cursor: pointer;
+    margin-top: 30px;
 }
 
 .section-title{
@@ -95,10 +96,13 @@ nav ul li a{
 .banner-greetings{
     font-size: 45px;
     font-weight: 600;
+    margin-bottom: 0px !important;
 }
 .banner-title{
     font-weight: bold;
     font-size: 85px;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
 }
 .banner_description{
     font-size: 18px;
@@ -154,4 +158,77 @@ main section{
     padding: 30px;
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06); 
+}
+
+/* resume styles */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+
+.resume-column-title{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.experience-title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.experience-description, .experience-sub-title{
+    color: #757575;
+}
+
+.experience-description{
+    font-size: 16px;
+}
+.resume hr{
+    margin: 30px 5px;
+}
+
+.resume-download-cv{
+    margin-top: 50px;
+}
+
+/* footer styles */
+
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+
+
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"], footer input[type="email"]{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+
+footer textarea{
+    height: 180px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
 }
