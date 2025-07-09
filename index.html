@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="styles/portfolio.css">
 </head>
 <body class="open-sans-normal">
-    <header class="header">
+    <!-- 1st page -->
+    <header class="header secondary-bg">
         <nav>
             <h3 class="nav-title">D<span class="text-primary">a</span>iy<span class="text-primary">a</span>n</h3>
             <ul>
@@ -28,11 +29,64 @@
                 <button class="btn-primary">Download CV</button>
                 <button class="btn-primary">Contact</button>
             </div>
-            <img class="banner-image" src="Images/daiyan.png" alt="">
+            <div id="banner-image">
+                <img class="banner-image" src="Images/daiyan.png" alt="">
+            </div>
         </div>
     </header>
     <main>
+        <!-- about me section starts -->
+        <section class="about secondary-bg">
+            <h3 class="section-title">About Me</h3>
+            <p class="section-description">I am a web developer with a passion for creating beautiful and functional websites. My journey in web development started with a curiosity for how things work behind the scenes, and it has evolved into a full-fledged career.</p>
+            <div class="about-items">
+                <!-- .about-item*4>p.item-title+p.item-description -->
+                <div class="about-item">
+                    <p class="item-title">Name</p>
+                    <p class="item-description">Rad Shahmad Daiyan</p>
+                </div>
+                <div class="about-item">
+                    <p class="item-title">Email</p>
+                    <p class="item-description">radshahmaddaiyan@gmail.com</p>
+                </div>
+                <div class="about-item">
+                    <p class="item-title">Date of Birth</p>
+                    <p class="item-description">July 31st, 2004</p>
+                </div>
+                <div class="about-item">
+                    <p class="item-title">From</p>
+                    <p class="item-description">Chattogram, Bangladesh</p>
+                </div>
+            </div>
+        </section>
+        <!-- what i do section starts -->
+        <section class="skills">
+            <h3 class="section-title text-center">What I do</h3>
+            <p class="section-description text-center">I have more than 10 years experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies i use. Want to find out more about my experience? Check out my online resume and project portfolio.</p>
 
+            <div class="skills-container">
+                <div class="skill">
+                    <img src="icons/js.png" alt="">
+                    <h4 class="skill-title">Vanilla JavaScript</h4>
+                    <p class="skill-description">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div class="skill">
+                    <img src="icons/react.png" alt="">
+                    <h4 class="skill-title">React</h4>
+                    <p class="skill-description">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div class="skill">
+                    <img src="icons/nodejs.png" alt="">
+                    <h4 class="skill-title">Node.js</h4>
+                    <p class="skill-description">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor</p>
+                </div>
+                <div class="skill">
+                    <img src="icons/mongo.png" alt="">
+                    <h4 class="skill-title">MongoDB</h4>
+                    <p class="skill-description">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor</p>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 </html>
